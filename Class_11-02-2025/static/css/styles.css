@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(90deg, rgba(0, 7, 224, 1) 0%, rgba(70, 54, 247, 1) 33%, rgba(47, 37, 245, 1) 62%, rgba(255, 97, 165, 1) 100%);
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.top-bar{
+    background: rgba(255,255,255,0.5);
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+/* Main Navbar  */
+
+.navbar{
+    background-color: rgba(255,255,255, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 15px 50px;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.logo{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 14px;
+    background-color: rgba(255,255,255, 0.2);
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+    transition: scale(0.1);
+}
+
+
+/* Hero Section  */
+.hero{
+    padding: 100px 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.hero-btn{
+    background-color: rgb(65, 0, 185);
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+/* Layout  */
+
+.layout-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 40px;
+    gap: 20px;
+
+
+}
+
+aside{
+    background-color: rgba(255,255,255,0.15);
+    padding: 20px;
+    border-radius: 10;
+}
